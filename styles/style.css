@@ -7,6 +7,11 @@
   color: var(--text-color);
   font-size: var(--main-font-size);
   font-family: var(--main-font-family);
+  background-image: var(--header_background-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .title-decor {
@@ -22,11 +27,6 @@
   grid-template-rows: var(--header_edges_height) var(--header_name_height) var(--header_edges_height);
   position: relative;
   padding: var(--page_padding);
-  background-image: var(--header_background-image);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .decorated-zone::after {
@@ -186,7 +186,7 @@
   border-bottom: 1px solid var(--text-color);
 }
 
-.main__link:focus{
+.main__link:focus {
   outline: none;
 }
 
@@ -194,7 +194,7 @@
   outline: 1px solid var(--text-color);
 }
 
-.footer{
+.footer {
   position: relative;
   display: grid;
   grid-template-rows: calc(var(--main_height) - 2 * var(--page_padding));

@@ -15,7 +15,3 @@
   --header_background-image: url(../images/cover-image-dark.png);
   --header_name-color: #DB00FF;
 }
-
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
